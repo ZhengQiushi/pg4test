@@ -16,13 +16,12 @@ cmake/*
 !.travis.yml
 !.gitignore
 
-# # Unignore source code directories
-# !benchmark/
-# !common/
-# !core/
-# !protocol/
-# !scripts/
-# !brain/
-# !third_party/
+# Unignore source code directories
+!src/
+!doc/
+!contrib/
+!config/
+
+*.o
 
 # *.py
